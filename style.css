@@ -102,10 +102,28 @@ body {
     padding: 25px 0px;
 }
 
+.tab-card {
+    display: none;
+    flex-direction: row;
+    column-gap: 2em;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .blog-card {
     background-color: #d83d3d;
 }
 
+
+.tab-blogs {
+    display: none;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+    column-gap: 10px;
+    row-gap: 10px;
+    width: 90%;
+    margin-bottom: 100px;
+}
 
 .blogs {
     width: 100%;
@@ -209,6 +227,7 @@ footer {
         padding: 0;
         font-family: 'Poppins', sans-serif;
         background-color: white;
+
     }
 
     .container {
@@ -301,4 +320,6 @@ footer {
     }
 }
 
-@media only screen and (max-width:374) {}
+/* ------------------------mobile responsibe styles----------------- */
+
+@media only screen and (max-width:688px) {}
